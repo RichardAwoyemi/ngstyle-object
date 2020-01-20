@@ -13,8 +13,6 @@ export class AppComponent  {
   
  constructor(
   ) {
-    console.log(this.textStyle);
-    console.log(typeof(this.textStyle));
     this.textStyle2['color'] = 'green';
     this.textStyle2['font-size'] = '4em';
   }}
